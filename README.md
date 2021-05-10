@@ -1,5 +1,9 @@
-<img src="/docs/logo.png" alt="Metamask"/>
+
 Download Metamask <br>
+<center>
+<img src="/images/metamask.png" width="800px" height="400px" alt="Metamask"/>
+  </center>
+<br>
 Metamask is a cryptocurrency wallet which can be used on the Chrome, Firefox and Brave browsers. It's also a browser extension.This means that it works like a bridge between normal browsers and the Ethereum blockchain network. It helps to communicate with our Smart Contract.<br>
 Steps to set Metamask:<br>
 > Go to the MetaMask homepage  MetaMask Download and add the extension for whichever browser you’re using.<br>
