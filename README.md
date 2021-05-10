@@ -1,5 +1,6 @@
-Download or clone the repository.<br>
-Refer the documentation for installing dependencies.<br>
+<b>Download or clone the repository.<br>
+Refer the documentation for installing dependencies.<br></b>
+<br><br>
 There are Multiple ways to check the working of application: <br>
 1) Using local network through Ganache and metamask extension
 2) Using Test networks like Kovan, Rinkeby etc with Metamask extension
