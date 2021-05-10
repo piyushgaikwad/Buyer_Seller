@@ -1,23 +1,57 @@
-<img src="/docs/logo.png" alt="Metamask"/>
-Download Metamask <br>
+<b>Download or clone the repository.<br>
+Refer the documentation for installing dependencies.<br></b>
+<br><br>
+There are Multiple ways to check the working of application: <br>
+1) Using local network through Ganache and metamask extension
+2) Using Test networks like Kovan, Rinkeby etc with Metamask extension
+
+Install Ganache<br>
+Download the appropriate version for your OS:<br>
+https://www.trufflesuite.com/ganache  
+<br><br>
+<img src="/images/ganache.jpg" width="800px" height="400px" alt="ganache"/><br><br>
+You can use Ganache across the entire development cycle; enabling you to develop, deploy, and test your dApps in a safe and deterministic environment.<br>
+Download Metamask and add it to the browser as an extension <br>
+<br><br>
+<img src="/images/metamask.png" width="800px" height="400px" alt="Metamask"/>
+  <br>
+<br>
 Metamask is a cryptocurrency wallet which can be used on the Chrome, Firefox and Brave browsers. It's also a browser extension.This means that it works like a bridge between normal browsers and the Ethereum blockchain network. It helps to communicate with our Smart Contract.<br>
 Steps to set Metamask:<br>
-> Go to the MetaMask homepage  MetaMask Download and add the extension for whichever browser you’re using.<br>
-> A Metamask icon will appear in your browser. Click on the fox icon to open the MetaMask.<br>
-> There is Main network and in addition there are different netork to test our application. So, here we are using Rinkeby network. Rinkeby is a public testnet for Ethereum that uses PoA (Proof of Authority)<br>
->In Metamask create new Password.<br>
->You’ll now be shown your 12 seed phrases. Write these down and keep them somewhere safe. This is extremely important!<br>
->Now, using the metamask test-network is easy, select the Rinkeby network and then select the right-top corner button and create a new account.<br>
->After creating Rinkeby account, select and copy the public address of account because we need to add some faucets (i.e ethers) in the account.<br>
->Faucets can be transafered freely to Rinkeby account using this address:  Faucet access link  <br>
-> Visit this website and follow the instructions at the bottom to get faucets in the account.<br>
+Go to the MetaMask homepage  MetaMask Download and add the extension for whichever browser you’re using.<br>
+A Metamask icon will appear in your browser. Click on the fox icon to open the MetaMask.<br>
+There is Main network and in addition there are different netork to test our application. So, here we are using Rinkeby network. Rinkeby is a public testnet for Ethereum that uses PoA (Proof of Authority)<br>
+In Metamask create new Password.<br>
+You’ll now be shown your 12 seed phrases. Write these down and keep them somewhere safe. This is extremely important!<br>
+Now, using the metamask test-network is easy, select the Rinkeby network and then select the right-top corner button and create a new account.<br>
+You can also import some accounts from Ganache into Metamask so that we can act on their behalf as users of our application.<br>
+<br><br>
+<img src="/images/Picture1.jpg" width="800px" height="400px" alt="Metamask"/><br><br>
+
+<br><br>
+<img src="/images/matamask_import.jpg" width="300px" height="600px" alt="Metamask"/>
+<img src="/images/ganache100.jpg" width="300px" height="600px" alt="Ganache"/><br><br>
+
+Now, You can use this imported accounts for testing decentralized application.<br>
+
+After creating Rinkeby account or using any account, we can add some rinkeby faucets to perform transaction. Select and copy the public address of account because we need to add some faucets (i.e ethers) in the account.<br>
+Faucets can be transafered freely to Rinkeby account using this address:  <br>
+Visit this website and follow the instructions at the bottom to get faucets in the account. Here we get to put some ethers in the testnet to perform transaction.
+Link: https://www.rinkeby.io/#faucet
+<br><br><img src="/images/faucet.png"  width="800px" height="400px" alt="Faucet"/><br><br>
+
+<br>
 How to use Application<br>
 Seller Front-End<br>
->Seller form can actually list their product for sale on the blockchain.<br>
->Seller post the product, for the buyer to purchase it using ethers.<br>
+Seller form can actually list their product for sale on the blockchain.<br>
+Seller post the product, for the buyer to purchase it using ethers.<br>
+<br><br><img src="/images/sssel.jpg"  width="800px" height="400px" alt="Selller"/><br><br>
+
 Buyer Front-End<br>
->Buyer consist of all the products listed by seller<br>
->Buyer can purchase the products using ethers they have in their account.<br>
+Buyer consist of all the products listed by seller<br>
+Buyer can purchase the products using ethers they have in their account.<br>
+<br><br><img src="/images/bbuyer.jpg"  width="800px" height="400px" alt="Buyer"/><br><br>
+
 How to Application works:<br>
 For example, consider function as task when it is completed user has to pay some cost in form of ethers. A blockchain is a globally shared, transactional database. This means that everyone can read entries in the database just by participating in the network. Each transaction is provided with transaction hash and block number, they help to keep track of transactions and provide secure transaction between two parties.<br>
 • First, we fetch the product from the mappings and also allow seller to post and create a new copy of it in memory. Initially, seller and buyer account have 100 ethers each, when seller post the advertise, 0.003536 ether are deduced from the sellers account (i.e. the processing fee).<br>
